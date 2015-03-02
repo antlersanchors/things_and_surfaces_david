@@ -18,8 +18,12 @@ class Surface {
   };
   
   public void mousePressed(int mx, int my) {
-   _position.x = mx;
-   _position.y = my;
+    
+    for (int i = 0; i < array.size (); i++) {
+      Thing t = array.get(i);
+      t.mousePressed(mx, my);
+    }    
+
   } 
 };
 

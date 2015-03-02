@@ -20,5 +20,10 @@ class Thing {
 
   public void display() {
   };
+  
+  public void mousePressed(int mx, int my) {
+    Cup.mousePressed(int mx, int my);
+  }
+  
 };
 
