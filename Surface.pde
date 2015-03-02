@@ -16,5 +16,10 @@ class Surface {
       t.display();
     }
   };
+  
+  public void mousePressed(int mx, int my) {
+   _position.x = mx;
+   _position.y = my;
+  } 
 };
 

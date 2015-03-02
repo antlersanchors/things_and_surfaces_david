@@ -7,6 +7,7 @@ class Desk extends Surface {
     rect(20, 20, 20 + _width, 20 + _height);
 
     super.display();
+    
   };
 };
 
