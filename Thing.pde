@@ -23,6 +23,7 @@ class Thing {
   
   public void mousePressed(int mx, int my) {
     mousePressed(mx, my);
+  //   println(mx + "called " + my);
   }
   
 };

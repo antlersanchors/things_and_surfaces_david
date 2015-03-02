@@ -11,7 +11,7 @@ class Surface {
 
   public void display() {
 
-    for (int i = 0; i < array.size (); i++) {
+    for (int i = 0; i < array.size(); i++) {
       Thing t = array.get(i);
       t.display();
     }
@@ -19,9 +19,10 @@ class Surface {
   
   public void mousePressed(int mx, int my) {
     
-    for (int i = 0; i < array.size (); i++) {
+    for (int i = 0; i < array.size(); i++) {
       Thing t = array.get(i);
       t.mousePressed(mx, my);
+      // println(mx + "called " + my);
 
     }    
 

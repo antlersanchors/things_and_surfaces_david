@@ -20,7 +20,7 @@ class Cup extends Thing {
     if ( _empty ) {
       fill(255);
     } else {
-      fill(255, 255, 255);
+      fill(0, 0, 255);
     }
 
     ellipse(_position.x, _position.y, _width, _height);
@@ -29,6 +29,8 @@ class Cup extends Thing {
 
   public void mousePressed(int mx, int my) {
     float d = dist(_position.x, _position.y, mx, my);
+    println(mx + "called " + my);
+
     
     if ( d < _width ) {
       
