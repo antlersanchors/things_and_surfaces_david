@@ -4,3 +4,5 @@ things_and_surfaces.sublime-project
 things_and_surfaces.sublime-workspace
 
 build-tmp/source/things_and_surfaces_david.java
+
+*.class

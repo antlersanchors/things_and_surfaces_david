@@ -22,7 +22,7 @@ class Thing {
   };
   
   public void mousePressed(int mx, int my) {
-    Cup.mousePressed(mx, my);
+    mousePressed(mx, my);
   }
   
 };

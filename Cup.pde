@@ -24,7 +24,7 @@ class Cup extends Thing {
     }
 
     ellipse(_position.x, _position.y, _width, _height);
-    println("x: " + _position.x + "y: " + _position.y);
+    // println("x: " + _position.x + "y: " + _position.y);
   };
 
   public void mousePressed(int mx, int my) {

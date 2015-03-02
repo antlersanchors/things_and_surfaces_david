@@ -11,7 +11,7 @@ void setup() {
   desk._height = 350;
   
   for (int i = 0; i < NBR_CUPS; i++) {
-    Cup c = new Cup(i + 20, i + 20, 20, 20);
+    Cup c = new Cup(i * 50 + 50, i * 50 + 50, 20, 20);
     desk.addItem(c); 
   }
 }

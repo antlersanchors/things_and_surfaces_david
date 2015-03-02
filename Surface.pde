@@ -22,6 +22,7 @@ class Surface {
     for (int i = 0; i < array.size (); i++) {
       Thing t = array.get(i);
       t.mousePressed(mx, my);
+
     }    
 
   } 
