@@ -16,14 +16,5 @@ class Surface {
       t.display();
     }
   };
-  
-  public void mousePressed(int mx, int my) {
-    
-    for (int i = 0; i < array.size (); i++) {
-      Thing t = array.get(i);
-      t.mousePressed(mx, my);
-    }    
-
-  } 
 };
 
