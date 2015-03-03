@@ -29,7 +29,7 @@ class Cup extends Thing {
 
   public void mousePressed(int mx, int my) {
     float d = dist(_position.x, _position.y, mx, my);
-    println(mx + "called " + my);
+    println(mx + " called " + my);
 
     
     if ( d < _width ) {
